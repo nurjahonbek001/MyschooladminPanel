@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme._12schoolAdminPanel"
+        tools:targetApi="31">
+        <activity
+            android:name=".RatingAcc2"
+            android:exported="false" />
+        <activity
+            android:name=".RatingUp"
+            android:exported="false" />
+        <activity
+            android:name=".ActivitySchedule.ScheduleUp"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityNews.NewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Bells"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityPdf.ReadBook"
+            android:exported="false" />
+        <activity
+            android:name=".activity.LibraryUp"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityTech.TeacherAcc"
+            android:exported="false" />
+        <activity
+            android:name=".activity.LibraryAcc"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityPdf.ReadBook"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".ActivityNotification.NotificationUp"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityNotification.NotificationAcc"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityTech.TeacherUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityNews.NewsUpload"
+            android:exported="false" />
+        <activity
+            android:name=".RatingAcc"
+            android:exported="false" />
+        <activity
+            android:name=".ActivitySchedule.ScheduleAcc"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityTech.TechActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityNews.NewsAcc"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
